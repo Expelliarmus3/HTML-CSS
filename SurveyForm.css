@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://thumbs.dreamstime.com/z/traceability-product-quality-control-tiny-people-check-list-magnifying-glass-vector-illustration-cartoon-items-pencil-258566096.jpg?w=360);
+  
+}
+h1{
+    text-align: center;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+.menu{
+    background-color: aqua;
+    width: 80%;
+    text-align: center;
+    padding:0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
