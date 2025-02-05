@@ -1,20 +1,42 @@
 body{
-    background-image: url(https://thumbs.dreamstime.com/z/traceability-product-quality-control-tiny-people-check-list-magnifying-glass-vector-illustration-cartoon-items-pencil-258566096.jpg?w=360);
-  
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/882/420/non_2x/modern-minimalist-dark-blue-premium-abstract-background-with-luxury-geometric-dark-shape-exclusive-wallpaper-design-for-website-poster-brochure-presentation-free-vector.jpg");
+    
 }
+
 h1{
     text-align: center;
+    color: rgb(251, 252, 252);
+    
 }
 p{
-    color: blue;
+    color: whitesmoke;
     text-align: center;
+    
 }
-.menu{
-    background-color: aqua;
+
+.menu,.form,.submit{
+    background-color: rgba(0,0,0,0.5);
     width: 80%;
     text-align: center;
     padding:0%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+}
+fieldset{
+    width: 70%;
+    border: none;
+    padding: 2rem 0;
+    text-align: center;
+    color: rgb(81, 125, 205);
+
+}
+label{
+    display: block;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+
 }

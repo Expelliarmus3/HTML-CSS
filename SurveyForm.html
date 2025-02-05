@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title></title>
-        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="SurveyForm.css"/>
     </head>
     
 <body>
@@ -12,6 +12,41 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">This is just a survey form.Feel free to express</p>
     </div>
+    <div class="form">
     <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'></form>
+    <form method="post" action="file:///C:/Users/Ahana/OneDrive/Desktop/HTML-CSS/SurveyForm.html">
+        <fieldset>
+            <label placeholder="Ahana Sarkar" for="name-label">Enter your Name: <input id="name-label" name="name" type="text" required></label>
+            <label aria-placeholder="1234567890" for="number-label">Enter your number: <input id="number-label" name="number" type="tel" maxlength="10" required></label>
+            <label aria-placeholder="ah123@gmail.com" for="email-label">Enter your Email: <input id="email-label" name="email" type="email" required></label>
+        </fieldset>
+        <fieldset>
+            <label for="referrer" required>Select your profession
+                <select id="referrer" name="referrer">
+                    <option value="">(Select one)</option>
+                    <option value="1">Student</option>
+                    <option value="2">Teacher</option>
+                    <option value="3">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Account Type(required)</legend>
+            <label for="personal-type" class="inline">Private<input id="personal-type" name="Account-type" type="radio" checked></label>
+            <label for="professional-type" class="inline">Institutional<input id="professional-type" name="Account-type" type="radio"></label>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Tell us about yourself: 
+                <textarea id="bio" placeholder="I love to code and chill..." rows="3" cols="30"></textarea>
+            </label>
+        </fieldset>
+    </div>
+    <div class="submit">
+            <label for="terms-and-conditions">
+                <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+            </label>
+            <input type="submit" value="Submit">
+    </div>   
+    </form>
 </body>
 </html>
