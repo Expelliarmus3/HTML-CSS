@@ -2,6 +2,13 @@ body{
     background-image: url("https://static.vecteezy.com/system/resources/previews/015/882/420/non_2x/modern-minimalist-dark-blue-premium-abstract-background-with-luxury-geometric-dark-shape-exclusive-wallpaper-design-for-website-poster-brochure-presentation-free-vector.jpg");
     
 }
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
 
 h1{
     text-align: center;
@@ -16,20 +23,20 @@ p{
 
 .menu,.form,.submit{
     background-color: rgba(0,0,0,0.5);
-    width: 80%;
-    text-align: center;
-    padding:0%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
 }
-fieldset{
+fieldset,.submit{
     width: 70%;
-    border: none;
-    padding: 2rem 0;
-    text-align: center;
-    color: rgb(81, 125, 205);
-
+    
+    padding: 2rem 2rem;
+    text-align: left;
+    color: white;
+    border-bottom:2px;
+    border-left:none;
+    border-right:none;
 }
 label{
     display: block;
@@ -40,3 +47,30 @@ label{
     vertical-align: middle;
 
 }
+.submit{
+    text-align:center;
+    padding-bottom: 20px;
+    color:white; 
+    width:80.9%;
+    background-color:rgba(0,0,0,0.5);
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgba(0,0,0,0.5);
+  border-color: white;
+  min-width: 300px;
+  color:white;
+}
+input, textarea {
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+a{
+    color:white;
+}
+

@@ -16,11 +16,15 @@
     <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'></form>
     <form method="post" action="file:///C:/Users/Ahana/OneDrive/Desktop/HTML-CSS/SurveyForm.html">
         <fieldset>
+            <legend>Personal Details</legend>
             <label placeholder="Ahana Sarkar" for="name-label">Enter your Name: <input id="name-label" name="name" type="text" required></label>
+            <br></br>
             <label aria-placeholder="1234567890" for="number-label">Enter your number: <input id="number-label" name="number" type="tel" maxlength="10" required></label>
+            <br></br>
             <label aria-placeholder="ah123@gmail.com" for="email-label">Enter your Email: <input id="email-label" name="email" type="email" required></label>
         </fieldset>
         <fieldset>
+            <legend>Professional Details</legend>
             <label for="referrer" required>Select your profession
                 <select id="referrer" name="referrer">
                     <option value="">(Select one)</option>
@@ -45,6 +49,7 @@
             <label for="terms-and-conditions">
                 <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
             </label>
+            <br></br>
             <input type="submit" value="Submit">
     </div>   
     </form>
